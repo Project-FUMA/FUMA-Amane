@@ -6,7 +6,7 @@ on:
       - main
 
 concurrency:
-  group: polling
+  group: refresh
   cancel-in-progress: true
 
 jobs:
