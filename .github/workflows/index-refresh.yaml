@@ -1,9 +1,9 @@
 name: index.toml Refresh
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 concurrency:
   group: refresh

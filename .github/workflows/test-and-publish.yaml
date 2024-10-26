@@ -1,11 +1,12 @@
 name: Server test and publish
 on:
-  workflow_dispatch:
   push:
     branches:
       - main
     paths:
-      - 'index.toml'
+      - index.toml
+      - pack.toml
+  workflow_dispatch:
 
 concurrency:
   group: publish
@@ -14,7 +15,6 @@ concurrency:
 jobs:
   test-and-publish:
     name: test and publish
-    # if: ${{ github.actor != 'github-actions[bot]' }}
     environment: Publish
     runs-on: ubuntu-latest
     steps:
