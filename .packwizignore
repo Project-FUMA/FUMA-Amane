@@ -3,4 +3,6 @@
 
 # Exclude README
 /README.md
+
 .github/**
+dedicated-launch-test/**

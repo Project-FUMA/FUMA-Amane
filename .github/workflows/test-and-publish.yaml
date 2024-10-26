@@ -1,0 +1,61 @@
+name: Server test and publish
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'index.toml'
+
+concurrency:
+  group: publish
+  cancel-in-progress: true
+
+jobs:
+  test-and-publish:
+    name: test and publish
+    # if: ${{ github.actor != 'github-actions[bot]' }}
+    environment: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Setup Golang and install packwiz
+        uses: actions/setup-go@v5
+        with:
+          go-version: '>=1.19'
+      - run: |
+          go install github.com/packwiz/packwiz@latest
+      #- name: Packwiz cache
+      #  uses: actions/cache@v4
+      #  with:
+      #    path: |
+      #      ~/.cache/packwiz
+      #    key: ${{ runner.os }}-packwiz-${{ hashFiles('**/index.toml') }}
+      #    restore-keys:
+      #      ${{ runner.os }}-packwiz-
+      - name: Packwiz server
+        shell: bash
+        run: |
+          packwiz serve --basic &
+      - name: Dedicated Server Launching Test
+        id: dedicated_server_launching
+        timeout-minutes: 10
+        uses: Project-FUMA/dedicated-launch-test@1.19.2-forge
+        with:
+          packwiz-server-url: 'http://localhost:8080/pack.toml'
+      - run: ls -al
+      # - name: Setup Git and push to publish
+      #   shell: bash
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: |
+      #     git config user.name "github-actions[bot]"
+      #     git config user.email "github-actions[bot]@users.noreply.github.com"
+      #
+      #     git checkout publish
+      #     git merge main -m "`date -u`: Merge main into publish" || true
+      #     git push origin publish
+
