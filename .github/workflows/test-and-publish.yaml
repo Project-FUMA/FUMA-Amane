@@ -15,7 +15,6 @@ concurrency:
 jobs:
   test-and-publish:
     name: test and publish
-    if: ${{ github.actor == 'github-actions[bot]' || github.actor != 'github-actions[bot]' }}
     environment: Publish
     runs-on: ubuntu-latest
     steps:
