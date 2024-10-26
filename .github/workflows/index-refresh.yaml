@@ -16,29 +16,28 @@ jobs:
     environment: Refresh
     runs-on: ubuntu-latest
     steps:
-      - name: Create app token
-        uses: actions/create-github-app-token@v1
-        id: app-token
-        with:
-          app-id: ${{ vars.APP_ID }}
-          private-key: ${{ secrets.APP_PRIVATE_KEY }}
-      - name: Get app user ID
-        id: get-user-id
-        run: echo "user-id=$(gh api "/users/${{ steps.app-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
-        env:
-          GH_TOKEN: ${{ steps.app-token.outputs.token }}
-      - name: Checkout branch main
-        uses: actions/checkout@v4
-        with:
-          token: ${{ steps.app-token.outputs.token }}
-          ref: ${{ github.head_ref }}
-          persist-credentials: false
-      - name: Setup Golang and install packwiz
+      - name: Setup Golang
         uses: actions/setup-go@v5
         with:
           go-version: '>=1.19'
-      - run: |
-          go install github.com/packwiz/packwiz@latest
+      - name: Install packwiz
+        shell: bash
+        run: go install github.com/packwiz/packwiz@latest
+      - name: Checkout branch main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Auth as Github App
+        id: auth-as-github-app
+        shell: bash
+        env:
+          APP_ID: ${{ vars.APP_ID }}
+          APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+        run: bash .github/auth.sh
+      - name: Re-Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.auth-as-github-app.outputs.token }}
       #- name: Packwiz cache
       #  uses: actions/cache@v4
       #  with:
@@ -54,8 +53,8 @@ jobs:
       - name: Setup Git and push
         shell: bash
         run: |
-          git config --global user.name '${{ steps.app-token.outputs.app-slug }}[bot]'
-          git config --global user.email '${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com>'
+          git config --global user.name 'FUMA-Automate[bot]'
+          git config --global user.email '186409303+fuma-automate[bot]@users.noreply.github.com'
 
           git add index.toml pack.toml
           git commit -m "`date -u`: Automated index refresh by Actions" || true
