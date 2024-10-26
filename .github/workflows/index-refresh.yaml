@@ -10,13 +10,13 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  index-refresh-and-push:
-    name: Index refresh and push
+  refresh-and-push:
+    name: refresh and push
     if: ${{ github.actor != 'github-actions[bot]' }}
-    environment: Polling
+    environment: Refresh
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main branche
+      - name: Checkout branch main
         uses: actions/checkout@v4
         with:
           ref: main
@@ -25,16 +25,15 @@ jobs:
         with:
           go-version: '>=1.19'
       - run: |
-          go version
           go install github.com/packwiz/packwiz@latest
-      - name: Apply packwiz cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cache/packwiz
-          key: ${{ runner.os }}-packwiz-${{ hashFiles('**/index.toml') }}
-          restore-keys:
-            ${{ runner.os }}-packwiz-
+      #- name: Packwiz cache
+      #  uses: actions/cache@v4
+      #  with:
+      #    path: |
+      #      ~/.cache/packwiz
+      #    key: ${{ runner.os }}-packwiz-${{ hashFiles('**/index.toml') }}
+      #    restore-keys:
+      #      ${{ runner.os }}-packwiz-
       - name: Packwiz refresh
         shell: bash
         run: |
@@ -47,7 +46,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add index.toml
+          git add .
           git commit -m "`date -u`: Automated index refresh by Actions" || true
           git push
 
