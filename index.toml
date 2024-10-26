@@ -1,0 +1,91 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "f65f15c19e621224e1f65227198eb22a740b3d885ccc45b5f0e2d28c46c231c1"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "8ac6b49b5c4381ba611ce6d025512ad7bc7955d1847f96eea3c79444b85f965d"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "45d23f946a728a4ec6ccd6b33cbc86d343d55a45f0ed1165e3676b1f7502e874"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "c24f52cac1754f1c4632becc987ed39cd5a31c49b79e6a351149b343ac26374b"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "6757442921a4f9804d81af8bfa470beb2454597f96298fd808bf47a6b225767f"
+metafile = true
+
+[[files]]
+file = "mods/i18nupdatemod.pw.toml"
+hash = "6f8fa473a74b8411cb9c639118a1a2f2e1e28c8582b8e85731225b9dd27d4739"
+metafile = true
+
+[[files]]
+file = "mods/net-music.pw.toml"
+hash = "852b8a25763815ef7717853d0db3773b0a6d43162684dbcc86271084c0c1a0ba"
+metafile = true
+
+[[files]]
+file = "mods/oculus.pw.toml"
+hash = "74abe003fdef75c9d821ef1078bf9b18f306d7a802548357ac85a2a24d914a68"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "d4b9e80d057ab85db779cd03b785050181cbad220e29308adfcd27575904075f"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "1a207c92023b8a47c9c50be912e38b18c69f85f42449afd82130247a7e7d01f1"
+metafile = true
+
+[[files]]
+file = "mods/the-lost-cities.pw.toml"
+hash = "dab94b83ba26847f37078428efe4c492424a519d5f9537d102d9ac487796f327"
+metafile = true
+
+[[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "176eda94ad465f880e240ef29685dfd9b21aac18c1606c8d526b9dcad4a232f4"
+metafile = true
+
+[[files]]
+file = "mods/timeless-and-classics-zero.pw.toml"
+hash = "8d5b65ac76dc5c5fd5eddbeda19387c39e524b3f0aae70c0af3ea3f743533cac"
+metafile = true
+
+[[files]]
+file = "mods/touhou-little-maid.pw.toml"
+hash = "6aaebf8d2c0933d9a08b29341bd929fc09ebd01c54d9c0a960c54b70c78c4bb5"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "ac7cb4faa11be6f073fb0a34942bfd3b5e2135a541bbbd7f501dbc9cc72068df"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "47326fd896cd8f9402eeecc19ff32a1b87f5662144b29ffc3cbc4a67596240df"
+metafile = true
+
+[[files]]
+file = "mods/yes-steve-model.pw.toml"
+hash = "4fc98a76890a62930ed8e3b97a1b0f31e160fbaa9e711bd86c25406e4ca3c9d0"
+metafile = true
+
+[[files]]
+file = "mods/yuushya-townscape.pw.toml"
+hash = "8adf24036235cab0844418ec46cba911056e55bbbe7e9b9dc6245bdbe616c03a"
+metafile = true
