@@ -1,0 +1,67 @@
+name: Server test and publish
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - index.toml
+  workflow_dispatch:
+
+concurrency:
+  group: publish
+  cancel-in-progress: true
+
+jobs:
+  test-and-publish:
+    name: test and publish
+    environment: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Golang
+        uses: actions/setup-go@v5
+        with:
+          go-version: '>=1.19'
+          cache: false
+      - name: Install packwiz
+        shell: bash
+        run: |
+          go install github.com/packwiz/packwiz@latest
+      - name: Checkout branch main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      #- name: Packwiz cache
+      #  uses: actions/cache@v4
+      #  with:
+      #    path: |
+      #      ~/.cache/packwiz
+      #    key: ${{ runner.os }}-packwiz-${{ hashFiles('**/index.toml') }}
+      #    restore-keys:
+      #      ${{ runner.os }}-packwiz-
+      - name: Packwiz server
+        shell: bash
+        run: |
+          packwiz serve --basic &
+      - name: Dedicated Server Launching Test
+        id: dedicated_server_launching
+        timeout-minutes: 10
+        uses: Project-FUMA/dedicated-launch-test@1.19.2-forge
+        with:
+          packwiz-server-url: 'http://localhost:8080/pack.toml'
+      - name: Merge main -> publish
+        uses: devmasx/merge-branch@master
+        with:
+          type: now
+          target_branch: publish
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Setup Git and push to publish
+      #   shell: bash
+      #   run: |
+      #     git config --global user.name 'FUMA-Automate[bot]'
+      #     git config --global user.email '186409303+fuma-automate[bot]@users.noreply.github.com'
+      #
+      #     git fetch origin
+      #     git checkout publish
+      #     git merge main -m "`date -u`: Merge main into publish"
+      #     git push origin publish
+

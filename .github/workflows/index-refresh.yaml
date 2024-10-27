@@ -1,0 +1,64 @@
+name: index.toml Refresh
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh-and-push:
+    name: refresh and push
+    if: ${{ !contains(github.actor, '[bot]') }}
+    environment: Refresh
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Golang
+        uses: actions/setup-go@v5
+        with:
+          go-version: '>=1.19'
+          cache: false
+      - name: Install packwiz
+        shell: bash
+        run: |
+          go install github.com/packwiz/packwiz@latest
+      - name: Checkout branch main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Auth as Github App
+        id: auth-as-github-app
+        shell: bash
+        env:
+          APP_ID: ${{ vars.APP_ID }}
+          APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
+        run: bash .github/auth.sh
+      - name: Re-Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.auth-as-github-app.outputs.token }}
+      #- name: Packwiz cache
+      #  uses: actions/cache@v4
+      #  with:
+      #    path: |
+      #      ~/.cache/packwiz
+      #    key: ${{ runner.os }}-packwiz-${{ hashFiles('**/index.toml') }}
+      #    restore-keys:
+      #      ${{ runner.os }}-packwiz-
+      - name: Packwiz refresh
+        shell: bash
+        run: |
+          packwiz refresh
+      - name: Setup Git and push
+        shell: bash
+        run: |
+          git config --global user.name 'FUMA-Automate[bot]'
+          git config --global user.email '186409303+fuma-automate[bot]@users.noreply.github.com'
+
+          git add index.toml pack.toml
+          git commit -m "`date -u`: Automated index refresh by Actions" || true
+          git push
+
