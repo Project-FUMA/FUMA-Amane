@@ -7,7 +7,7 @@ on:
 
 concurrency:
   group: refresh
-  cancel-in-progress: true
+  # cancel-in-progress: true
 
 jobs:
   refresh-and-push:
