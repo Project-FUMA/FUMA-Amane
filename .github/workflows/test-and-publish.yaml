@@ -54,6 +54,7 @@ jobs:
           git config --global user.name 'FUMA-Automate[bot]'
           git config --global user.email '186409303+fuma-automate[bot]@users.noreply.github.com'
 
+          git fetch origin
           git checkout publish
           git merge main -m "`date -u`: Merge main into publish"
           git push origin publish
