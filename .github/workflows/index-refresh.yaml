@@ -22,7 +22,9 @@ jobs:
           go-version: '>=1.19'
       - name: Install packwiz
         shell: bash
-        run: go install github.com/packwiz/packwiz@latest
+        run: |
+          go env -w GO111MODULE=off
+          go install github.com/packwiz/packwiz@latest
       - name: Checkout branch main
         uses: actions/checkout@v4
         with:
