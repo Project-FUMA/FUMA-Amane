@@ -1,13 +1,33 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/aether.pw.toml"
+hash = "574bac3f6d3151344a7d68e1a8febd59cadd5b11a71f4e738d6d9d5882b89320"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "f65f15c19e621224e1f65227198eb22a740b3d885ccc45b5f0e2d28c46c231c1"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "11961ac5a173cba8d70304f381b26493223c927fab8e4ec7b291abe0010d5082"
+metafile = true
+
+[[files]]
+file = "mods/born-in-chaos.pw.toml"
+hash = "309e379175b7572fc3f1fab985a07faeabf4c0fc4201bb1816e0112a88f47588"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "8ac6b49b5c4381ba611ce6d025512ad7bc7955d1847f96eea3c79444b85f965d"
+metafile = true
+
+[[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "00df0a47532a4135bb12ba5ba124b1795f07057f6ef1b3025e333cd7ffa13c86"
 metafile = true
 
 [[files]]
@@ -21,8 +41,13 @@ hash = "c24f52cac1754f1c4632becc987ed39cd5a31c49b79e6a351149b343ac26374b"
 metafile = true
 
 [[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "d3866752c64d2364b669a3129156793678b9c61d6d59f0fc046b27c8b0622f05"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
-hash = "6757442921a4f9804d81af8bfa470beb2454597f96298fd808bf47a6b225767f"
+hash = "ab7bb11199e592a43542ec0ca68c0536b91b5045e070a77525ae1593ca722b90"
 metafile = true
 
 [[files]]
@@ -48,6 +73,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "1a207c92023b8a47c9c50be912e38b18c69f85f42449afd82130247a7e7d01f1"
+metafile = true
+
+[[files]]
+file = "mods/the-abyss-chapter-ii.pw.toml"
+hash = "a36aaec3b690c4af41d30ee4203761ae86dbd519c0aca6bde75569260143a7b1"
 metafile = true
 
 [[files]]
