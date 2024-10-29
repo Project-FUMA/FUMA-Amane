@@ -119,7 +119,3 @@ metafile = true
 file = "mods/yuushya-townscape.pw.toml"
 hash = "8adf24036235cab0844418ec46cba911056e55bbbe7e9b9dc6245bdbe616c03a"
 metafile = true
-
-[[files]]
-file = "test/hello.txt"
-hash = "572a95fee9c0f320030789e4883707affe12482fbb1ea04b3ea8267c87a890fb"
