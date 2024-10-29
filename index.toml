@@ -56,6 +56,11 @@ hash = "6f8fa473a74b8411cb9c639118a1a2f2e1e28c8582b8e85731225b9dd27d4739"
 metafile = true
 
 [[files]]
+file = "mods/minecraft-transit-railway.pw.toml"
+hash = "3bbdb97d09e058c9abd29f7e91a6d418d4de1ac98b556b2fff26946dacef8021"
+metafile = true
+
+[[files]]
 file = "mods/net-music.pw.toml"
 hash = "852b8a25763815ef7717853d0db3773b0a6d43162684dbcc86271084c0c1a0ba"
 metafile = true
