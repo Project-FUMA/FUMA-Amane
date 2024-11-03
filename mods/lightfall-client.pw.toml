@@ -1,0 +1,13 @@
+name = "Lightfall Client"
+filename = "lightfallclient-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89243d325014184dce84d8defc42b2a51c414db4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4024418
+project-id = 523230

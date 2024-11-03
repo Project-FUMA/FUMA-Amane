@@ -56,6 +56,11 @@ hash = "6f8fa473a74b8411cb9c639118a1a2f2e1e28c8582b8e85731225b9dd27d4739"
 metafile = true
 
 [[files]]
+file = "mods/lightfall-client.pw.toml"
+hash = "35888385861b92f48f5b27243f0c447c636626f3bda16d118f1834ac550a44b7"
+metafile = true
+
+[[files]]
 file = "mods/minecraft-transit-railway.pw.toml"
 hash = "3bbdb97d09e058c9abd29f7e91a6d418d4de1ac98b556b2fff26946dacef8021"
 metafile = true
