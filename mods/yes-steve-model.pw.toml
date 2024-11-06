@@ -1,13 +1,13 @@
 name = "Yes Steve Model"
-filename = "yesstevemodel-forge-1.19.2-2.2.2.jar"
+filename = "yesstevemodel-forge-1.20-2.2.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/86xjpqqS/versions/wVrGTOWO/yesstevemodel-forge-1.19.2-2.2.2.jar"
+url = "https://cdn.modrinth.com/data/86xjpqqS/versions/xPJXJg4B/yesstevemodel-forge-1.20-2.2.2.jar"
 hash-format = "sha512"
-hash = "f0e7ddf6d424c9219edf0293aa5d7de5c363bc99df580fb3b4d1243e80a4e3f0c9127382f89218780ae191122dae3a6be039a9beb0bcd10aece458675b93ed22"
+hash = "823ebc47a08bbc3d01a3ed9a7481371ba085a603fab6f334988c109a49e4fadab96944340b340145966d0357292290812b80fffafae66c2ff5d9ddd5f27ac9fc"
 
 [update]
 [update.modrinth]
 mod-id = "86xjpqqS"
-version = "wVrGTOWO"
+version = "xPJXJg4B"

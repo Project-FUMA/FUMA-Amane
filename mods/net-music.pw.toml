@@ -1,13 +1,13 @@
 name = "Net Music"
-filename = "netmusic-1.19.2-1.1.3.jar"
+filename = "netmusic-1.20.1-1.1.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/gKNuqaQq/versions/T53BLrDS/netmusic-1.19.2-1.1.3.jar"
+url = "https://cdn.modrinth.com/data/gKNuqaQq/versions/1IkUTusQ/netmusic-1.20.1-1.1.3.jar"
 hash-format = "sha512"
-hash = "190393c67321d52c284a227e25496cd4adf8795cd3e0b9c56b800ca240a7031734a037288b631c5fd1c572ee89d4dbab1515a290c99023e784fc454d8ea22052"
+hash = "1aaeac0016d01e18a87192484c8e9ce5ce539509836ef4afd305fec28772cfcce14a30ddd74f4a6fdf849b825c1c806eb8d0b9dcb4cbb282d3681c1bbcc8ddba"
 
 [update]
 [update.modrinth]
 mod-id = "gKNuqaQq"
-version = "T53BLrDS"
+version = "1IkUTusQ"

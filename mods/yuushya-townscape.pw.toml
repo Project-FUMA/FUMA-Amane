@@ -1,13 +1,13 @@
 name = "Yuushya Townscape"
-filename = "yuushya-1.19.2-forge-2.2.1.jar"
+filename = "yuushya-1.20.1-forge-2.2.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lfVtagkm/versions/pQLa206v/yuushya-1.19.2-forge-2.2.1.jar"
+url = "https://cdn.modrinth.com/data/lfVtagkm/versions/WKF1uvVS/yuushya-1.20.1-forge-2.2.2.jar"
 hash-format = "sha512"
-hash = "82767dd46b50525afa523151216a057ca0a6ea57a69c4d3be41f9427c122f012faf29774a1310237920f5f7a3ef8ebdd150e6fad238845d47f51a39254425682"
+hash = "7bae63222e2813656e50ce036b673e79f9306de25d4fb17c15b2d1425110c803609395005488edd9bbf159d7f8838140be5651ec632d75286162d3b29030ae96"
 
 [update]
 [update.modrinth]
 mod-id = "lfVtagkm"
-version = "pQLa206v"
+version = "WKF1uvVS"
