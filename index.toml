@@ -247,7 +247,7 @@ metafile = true
 
 [[files]]
 file = "mods/loot-beams.pw.toml"
-hash = "2591b640a80eb4cfbcadfa20ac748d3f683844ab66b69f4744d645c3a3ed9f8a"
+hash = "567db3dac85f551d28679e0f6bb39b20ca088910b1c7702379aa1143a795f38e"
 metafile = true
 
 [[files]]
