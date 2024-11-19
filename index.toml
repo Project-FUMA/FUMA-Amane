@@ -146,11 +146,6 @@ hash = "473489bb165ab775858cc475d8e9ae599e126bced1c73d17563e3459e4899719"
 metafile = true
 
 [[files]]
-file = "mods/enhanced-celestials.pw.toml"
-hash = "a7a719603d51f35baee5d74d61f8c250c0765376784c390d9d6721e4b98723e0"
-metafile = true
-
-[[files]]
 file = "mods/enhancedvisuals.pw.toml"
 hash = "50482095f158017b8545b47df4934e89a68011bc5a67edc7695db8bc749d0dde"
 metafile = true
