@@ -1,0 +1,13 @@
+name = "Serene Shrubbery"
+filename = "SereneShrubbery-1.20.1-v2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8nNCA6Vy/versions/oYA64o4w/SereneShrubbery-1.20.1-v2.0.0.jar"
+hash-format = "sha512"
+hash = "6fa1138e9f0f47c5a72c2990ad648cdeb382efca289966197db7f09d2e2ddead913ec0f0583b2c7519f9bb3c2b13ea284981f3fec21532f550680690b6de84fb"
+
+[update]
+[update.modrinth]
+mod-id = "8nNCA6Vy"
+version = "oYA64o4w"
