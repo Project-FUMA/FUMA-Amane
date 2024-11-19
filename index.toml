@@ -386,11 +386,6 @@ hash = "08faa8239705d280e41d353888bf717906fe71b1d5b9278bac9f5cd87b07efb3"
 metafile = true
 
 [[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "c10abbbab8c8f9ace6d9dc822df1c8ed1453273cfb270dda049ca954d23bb637"
-metafile = true
-
-[[files]]
 file = "mods/tetra.pw.toml"
 hash = "85a71671d0de5a84f67b7b9b14d7582c7b73967feea8301a180867496aa7e535"
 metafile = true
@@ -448,11 +443,6 @@ metafile = true
 [[files]]
 file = "mods/upgrade-aquatic.pw.toml"
 hash = "788d283ab803701f297c558076d01dbf11755416f8d854c37e0448c8b15e6da3"
-metafile = true
-
-[[files]]
-file = "mods/watersource-reborn.pw.toml"
-hash = "e28d2e9e5239ca88f854d09fe541039a6d2c7aa51fc1c7933c460ec6fbf01ba3"
 metafile = true
 
 [[files]]
