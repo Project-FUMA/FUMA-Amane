@@ -166,6 +166,11 @@ hash = "c540a4a52b722f14ac4eb62d936d3d8cdc84e24c9d6d9250ae5776b3be04dece"
 metafile = true
 
 [[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
+metafile = true
+
+[[files]]
 file = "mods/fishing-real.pw.toml"
 hash = "19a0004fd6aec9d82d1320c3dc7fc60297326343b0e78564d123f0d1664bdb39"
 metafile = true
@@ -258,6 +263,11 @@ metafile = true
 [[files]]
 file = "mods/majruszs-progressive-difficulty.pw.toml"
 hash = "dfd3ca238414939a4a9054bc933d4b5d9dfd5a306b86b898e1706cd6d66602f1"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "ade41e4315735aa9116a0222b332e03d3f8df6eea301764d40d0bdc40f5e8689"
 metafile = true
 
 [[files]]
