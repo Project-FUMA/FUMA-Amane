@@ -486,6 +486,11 @@ hash = "63e6a7e0f6c42f11058cd62bf2172f08f5ecf87cf6d96c790fab28fc7f210eb6"
 metafile = true
 
 [[files]]
+file = "mods/youkais-homecoming.pw.toml"
+hash = "eb3dbcb412009682dc352945541498d2bc93e23d8d035c81ffdfbc1bc7b3bccf"
+metafile = true
+
+[[files]]
 file = "mods/yuushya-townscape.pw.toml"
 hash = "3763be5fd8012888d013fc78abb820bbdaf381339d051f05f7d6c6367b18f6e8"
 metafile = true
