@@ -232,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
-hash = "d2e1a4e89a7e8014b65421cb925a8c802ded8985b4c0b1b1b8db4053141abe97"
+hash = "8294240da05ab9205bf9c83535d35a57629b018decce8fe57aab696682673e54"
 metafile = true
 
 [[files]]
@@ -242,12 +242,12 @@ metafile = true
 
 [[files]]
 file = "mods/lightmans-currency.pw.toml"
-hash = "13d1bf7e3275e67e9482741381e8df79b8bc8c6bd4e6c2e6c04c4e51c9607b42"
+hash = "6c2862423310ad71f7ce92c026317ce21c64a386a9075a0670570d6ca928746b"
 metafile = true
 
 [[files]]
 file = "mods/lionfish-api.pw.toml"
-hash = "4aebf2da5b0146081f4771be028ca1547f3ace6898603963ad5e95ddcaa179d0"
+hash = "60af8798dbf3e300a5af44125595afcd5d1e70072448444156364f222cc03e98"
 metafile = true
 
 [[files]]
@@ -292,7 +292,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "7af6d0a677c74cbd1ade186d72e0a2ce5b19b38913462bee1a9a5d41828a826c"
+hash = "89c4ebb08e430ca5fed5a864ca659923d492c56d9ec0d13b8c9e6068e58468a3"
 metafile = true
 
 [[files]]
@@ -377,7 +377,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "631d2f00ff8e1f7a4de1ed744d767b26d8c7708e98a4e632839648f502af9b44"
+hash = "1afb37efa665f167b1b885cc93899d027078731be11c3500211d69da8ca1f97a"
 metafile = true
 
 [[files]]
@@ -392,7 +392,7 @@ metafile = true
 
 [[files]]
 file = "mods/shoulder-surfing-reloaded.pw.toml"
-hash = "39aa00aa4b1b13bf0bbf1ff4d92b90d51c66a9b2f197d470047445fd47df235e"
+hash = "f3b6dd5f40891c79b04bd9546635cbfded364cf79656e5e889dd8a4588717be3"
 metafile = true
 
 [[files]]
@@ -407,7 +407,7 @@ metafile = true
 
 [[files]]
 file = "mods/tetra.pw.toml"
-hash = "85a71671d0de5a84f67b7b9b14d7582c7b73967feea8301a180867496aa7e535"
+hash = "a993be9dcfd2a929293bc958def73bb0568a713e7046d5d846fff24d47e1750a"
 metafile = true
 
 [[files]]
