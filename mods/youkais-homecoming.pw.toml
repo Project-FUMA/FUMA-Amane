@@ -1,0 +1,13 @@
+name = "Youkai's Homecoming"
+filename = "youkaishomecoming-2.2.16.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f5620eb7127bbe04b94ffdd49790eef5a8b8a4df"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5919029
+project-id = 957437
