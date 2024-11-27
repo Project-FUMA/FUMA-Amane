@@ -236,11 +236,6 @@ hash = "6cd5dcc7f8be470d2b9be207783db249235cd8536b4cf0f923c86124b387848a"
 metafile = true
 
 [[files]]
-file = "mods/hardcore-torches-forge.pw.toml"
-hash = "309fbe1683561ff833b7acfa768e16c0f8ab7bb71f5de48c5dbfd8c7a003e194"
-metafile = true
-
-[[files]]
 file = "mods/i18nupdatemod.pw.toml"
 hash = "6f8fa473a74b8411cb9c639118a1a2f2e1e28c8582b8e85731225b9dd27d4739"
 metafile = true
