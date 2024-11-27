@@ -1,0 +1,8 @@
+name = "[TacZ]Gunpowder Revolution:Great War gunpack"
+filename = "GunpowderRevolution_gunpack v1.0.6.zip"
+side = "both"
+
+[download]
+url = "https://tmp.cii.moe/share/67470abd5dee5/config/tacz/custom/GunpowderRevolution_gunpack%20v1.0.6.zip"
+hash-format = "sha1"
+hash = "8d7d927818dd926247a3b60b08080a9e23f9e6fd"

@@ -1,0 +1,8 @@
+name = "[TACZ]classics reborn"
+filename = "[TACZ]ClassicRCCRP v1.0.7 release hotfix2.zip"
+side = "both"
+
+[download]
+url = "https://tmp.cii.moe/share/67470abd5dee5/config/tacz/custom/[TACZ]ClassicRCCRP%20v1.0.7%20release%20hotfix2.zip"
+hash-format = "sha1"
+hash = "4b3052b3f8e8117ea6250c64124da2c829131d99"

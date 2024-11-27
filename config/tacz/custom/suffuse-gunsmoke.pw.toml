@@ -1,0 +1,8 @@
+name = "[TaCZ]Suffuse GunSmoke"
+filename = "SuffuseGunSmokePack1.0.4-hotfix2.zip"
+side = "both"
+
+[download]
+url = "https://tmp.cii.moe/share/67470abd5dee5/config/tacz/custom/SuffuseGunSmokePack1.0.4-hotfix2.zip"
+hash-format = "sha1"
+hash = "a6ef8bd503ece6573bc09a1345a5289d5965a2c9"

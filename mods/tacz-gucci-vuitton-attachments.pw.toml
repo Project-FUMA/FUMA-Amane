@@ -1,0 +1,13 @@
+name = "[TACZ] Gucci & Vuitton Attachments"
+filename = "guccivuitton-1.20.1-0.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d2e2916fb575d7ccaa05ae5d5d8b7b573b181b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5728554
+project-id = 1103436
