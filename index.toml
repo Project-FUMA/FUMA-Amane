@@ -1,6 +1,41 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/tacz/custom/suffuse-gunsmoke.pw.toml"
+hash = "acb7306ae70ad7501c0bac0793381cbb435480738936637fb9fe610978b6d75d"
+metafile = true
+
+[[files]]
+file = "config/tacz/custom/tacz-amethys-battlefield-gun-pack.pw.toml"
+hash = "6098f731c49c619eb9298344140a0666138ca950f92841c43d6832fb0b549d5d"
+metafile = true
+
+[[files]]
+file = "config/tacz/custom/tacz-ariptea-pack-by-astrallin.pw.toml"
+hash = "c62f2e92db55041b174dfafeca11defdbf13158c0d4fc882b8fedb00e8396b42"
+metafile = true
+
+[[files]]
+file = "config/tacz/custom/tacz-classics-reborn.pw.toml"
+hash = "33e6750bfb94a89c846fbb87da036371c8b4dd704592cf3d43eda3fc1509d132"
+metafile = true
+
+[[files]]
+file = "config/tacz/custom/tacz-gunpowder-revolution-great-war-gunpack.pw.toml"
+hash = "d405e6bd34d0f739857b827ff465ce38955b14e31535806c07d4aed0653cdda2"
+metafile = true
+
+[[files]]
+file = "config/tacz/custom/tacz-hamster-s-blue-archive-gunpack.pw.toml"
+hash = "1bdf10576cc6bd4d0b90e06b5db6fa9770dfb46c5724344ebc1fa6019b17ec5e"
+metafile = true
+
+[[files]]
+file = "config/tacz/custom/timeless-and-classics-zero-laffey-gunpack.pw.toml"
+hash = "e7a8d4e9816a6ce37397ce2e98b78960e1f5b3b35c2ef6f306897db5a383a635"
+metafile = true
+
+[[files]]
 file = "mods/adventofascension.pw.toml"
 hash = "691278b159e29ab7cf96304340f0b45757a31d60bf10277256652443be327047"
 metafile = true
@@ -408,6 +443,11 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "08faa8239705d280e41d353888bf717906fe71b1d5b9278bac9f5cd87b07efb3"
+metafile = true
+
+[[files]]
+file = "mods/tacz-gucci-vuitton-attachments.pw.toml"
+hash = "0efd32ec35e8f9a971cd5bd8d80b517b1f7c7cac669605af9fc4fec8e08883ce"
 metafile = true
 
 [[files]]

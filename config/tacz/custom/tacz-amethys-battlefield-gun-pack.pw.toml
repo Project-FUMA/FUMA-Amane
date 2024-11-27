@@ -1,0 +1,8 @@
+name = "[TaCZ]Amethy's Battlefield Gun Pack"
+filename = "Amethy_BF_Gun_Pack_v1.0.3-C.zip"
+side = "both"
+
+[download]
+url = "https://tmp.cii.moe/share/67470abd5dee5/config/tacz/custom/Amethy_BF_Gun_Pack_v1.0.3-C.zip"
+hash-format = "sha1"
+hash = "714a6e27cb60da39e1ed2dc157acec1c8bf6be42"

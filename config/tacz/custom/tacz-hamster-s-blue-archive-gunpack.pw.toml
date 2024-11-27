@@ -1,0 +1,8 @@
+name = "[TacZ]Hamster ‘s Blue Archive Gunpack"
+filename = "Hamster's BA gunpack v1.0.1.zip"
+side = "both"
+
+[download]
+url = "https://tmp.cii.moe/share/67470abd5dee5/config/tacz/custom/Hamster's%20BA%20gunpack%20v1.0.1.zip"
+hash-format = "sha1"
+hash = "b7dde4b87d7a54c3eacdb60e595e9ac9b3a913ca"

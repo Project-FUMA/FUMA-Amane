@@ -1,0 +1,8 @@
+name = "[TaCZ] A'RIP&TEA Pack"
+filename = "A'RIPTEA_ver.1.0.2_hotfix1.zip"
+side = "both"
+
+[download]
+url = "https://tmp.cii.moe/share/67470abd5dee5/config/tacz/custom/A'RIPTEA_ver.1.0.2_hotfix1.zip"
+hash-format = "sha1"
+hash = "5dfd27ba7e9e8eca891833be0fb3bdbc9a370d71"
