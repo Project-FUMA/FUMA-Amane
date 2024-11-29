@@ -43,7 +43,7 @@ jobs:
         shell: bash
         run: |
           mkdir packing && cd packing
-          wget -O dedicated-launch-test/server/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
+          wget -O packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
           java -jar packwiz-installer-bootstrap.jar -g http://localhost:8080/pack.toml
           zip -r "manual_pack-${{ env.BRANCH_SHA_ID }}.zip" . -x "packwiz-installer.jar" "packwiz-installer-bootstrap.jar"
       - name: Upload package
