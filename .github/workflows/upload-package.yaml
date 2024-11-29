@@ -1,0 +1,53 @@
+name: upload Package
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: packing
+  cancel-in-progress: true
+
+jobs:
+  pack-and-upload:
+    name: pack and upload
+    environment: packing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'microsoft'
+          java-version: '17'
+      - name: Setup Golang
+        uses: actions/setup-go@v5
+        with:
+          go-version: '>=1.19'
+      - name: Install packwiz
+        shell: bash
+        run: |
+          go install github.com/packwiz/packwiz@latest
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - name: Get branch HEAD SHA
+        run: echo "BRANCH_SHA_ID=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+      - name: Packwiz refresh
+        shell: bash
+        run: |
+          packwiz refresh
+      - name: Packwiz server
+        shell: bash
+        run: |
+          packwiz serve --basic &
+      - name: Install installer and download resources
+        shell: bash
+        run: |
+          mkdir packing && cd packing
+          wget -O dedicated-launch-test/server/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
+          java -jar packwiz-installer-bootstrap.jar -g http://localhost:8080/pack.toml
+          zip -r "manual_pack-${{ env.BRANCH_SHA_ID }}.zip" . -x "packwiz-installer.jar" "packwiz-installer-bootstrap.jar"
+      - name: Upload package
+        shell: bash
+        run: |
+          curl -k -F "file=@packing/manual_pack-${{ env.BRANCH_SHA_ID }}.zip" -F "token=${{ secrets.TMPLINK_TOKEN }}" -F "model=99" -F "mrid=${{ secrets.TMPLINK_MRID }}" -X POST "https://tmp-cli.vx-cdn.com/app/upload_cli"
+
