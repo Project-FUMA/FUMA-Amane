@@ -25,12 +25,12 @@ jobs:
         shell: bash
         run: |
           go install github.com/packwiz/packwiz@latest
-      - name: Checkout branch main
+      - name: Checkout branch
         uses: actions/checkout@v4
         with:
-          ref: main
-      - name: Get main branch HEAD SHA
-        run: echo "MAIN_SHA_ID=$(git rev-parse --short origin/main)" >> $GITHUB_ENV
+          ref: ${{ github.ref }}
+      - name: Get branch HEAD SHA
+        run: echo "BRANCH_SHA_ID=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
       - name: Packwiz refresh
         shell: bash
         run: |
@@ -45,9 +45,9 @@ jobs:
           mkdir packing && cd packing
           wget -O dedicated-launch-test/server/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
           java -jar packwiz-installer-bootstrap.jar -g http://localhost:8080/pack.toml
-          zip -r "manual_pack-${{ env.MAIN_SHA_ID }}.zip" . -x "packwiz-installer.jar" "packwiz-installer-bootstrap.jar"
+          zip -r "manual_pack-${{ env.BRANCH_SHA_ID }}.zip" . -x "packwiz-installer.jar" "packwiz-installer-bootstrap.jar"
       - name: Upload package
         shell: bash
         run: |
-          curl -k -F "file=@packing/manual_pack-${{ env.MAIN_SHA_ID }}.zip" -F "token=${{ secrets.TMPLINK_TOKEN }}" -F "model=99" -F "mrid=${{ secrets.TMPLINK_MRID }}" -X POST "https://tmp-cli.vx-cdn.com/app/upload_cli"
+          curl -k -F "file=@packing/manual_pack-${{ env.BRANCH_SHA_ID }}.zip" -F "token=${{ secrets.TMPLINK_TOKEN }}" -F "model=99" -F "mrid=${{ secrets.TMPLINK_MRID }}" -X POST "https://tmp-cli.vx-cdn.com/app/upload_cli"
 
