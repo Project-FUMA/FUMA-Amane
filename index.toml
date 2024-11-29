@@ -431,6 +431,11 @@ hash = "e3bdb65c2ce034e26c9277751a370baac6df6853d55e92327170df8778a837fb"
 metafile = true
 
 [[files]]
+file = "mods/smartbrainlib.pw.toml"
+hash = "bd231c766e25e2f3a5fbfa7e7b8ade2536fed16c3a5574dc30b212dc51a75044"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "0be4976227df8e261fd362889bf8e85b93e224d1b1c3cd2a11b73a9de3b64083"
 metafile = true
@@ -452,7 +457,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-abyss-chapter-ii.pw.toml"
-hash = "95a425fd38e680decba345a0f950c6a88bad81de52c5dccd48a8b600665d3aa1"
+hash = "8f64ef652aced6f08664705a7e32fcdfdfde2984ac2f8c25907e19d715a5486b"
 metafile = true
 
 [[files]]
