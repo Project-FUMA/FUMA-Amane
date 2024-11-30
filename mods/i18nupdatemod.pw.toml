@@ -1,6 +1,12 @@
 name = "I18nUpdateMod"
 filename = "I18nUpdateMod-3.6.0-all.jar"
 side = "client"
+pin = true
+
+[option]
+optional = true
+default = false
+description = "（可选）自动汉化包更新"
 
 [download]
 url = "https://cdn.modrinth.com/data/PWERr14M/versions/oT7GxJF6/I18nUpdateMod-3.6.0-all.jar"
