@@ -544,3 +544,8 @@ metafile = true
 file = "mods/yuushya-townscape.pw.toml"
 hash = "3763be5fd8012888d013fc78abb820bbdaf381339d051f05f7d6c6367b18f6e8"
 metafile = true
+
+[[files]]
+file = "resourcepacks/theabyss-zh-cn-pack.pw.toml"
+hash = "3e9285fb06fbfb0aeed4d7974c6cc05c16f35112209d1fd9be5f8470c91f0381"
+metafile = true
