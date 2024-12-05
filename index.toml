@@ -381,6 +381,11 @@ hash = "6b76ca285654c5c4309c6a1bb54614015af2d182eaa0e4307c8d81474321245e"
 metafile = true
 
 [[files]]
+file = "mods/non-update-reloaded.pw.toml"
+hash = "a4ecbe521b5e3fb441b494e7fd6f9bd2b7ae93eac469801365f9986e9f6effd9"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "2f8d1c3e8ff75a265ba6703a488c6fa7edc69cd9a01418ed1a6884e57a3e3ade"
 metafile = true
