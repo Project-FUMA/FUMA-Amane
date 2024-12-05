@@ -36,11 +36,6 @@ hash = "e7a8d4e9816a6ce37397ce2e98b78960e1f5b3b35c2ef6f306897db5a383a635"
 metafile = true
 
 [[files]]
-file = "mods/adventofascension.pw.toml"
-hash = "691278b159e29ab7cf96304340f0b45757a31d60bf10277256652443be327047"
-metafile = true
-
-[[files]]
 file = "mods/aether.pw.toml"
 hash = "dd0f4e61a79c60a7917fea9ee710d849df0832d9de5e05ccedafbeedbc451895"
 metafile = true
