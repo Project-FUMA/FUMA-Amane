@@ -36,11 +36,6 @@ hash = "e7a8d4e9816a6ce37397ce2e98b78960e1f5b3b35c2ef6f306897db5a383a635"
 metafile = true
 
 [[files]]
-file = "mods/adventofascension.pw.toml"
-hash = "691278b159e29ab7cf96304340f0b45757a31d60bf10277256652443be327047"
-metafile = true
-
-[[files]]
 file = "mods/aether.pw.toml"
 hash = "dd0f4e61a79c60a7917fea9ee710d849df0832d9de5e05ccedafbeedbc451895"
 metafile = true
@@ -378,6 +373,11 @@ metafile = true
 [[files]]
 file = "mods/net-music.pw.toml"
 hash = "6b76ca285654c5c4309c6a1bb54614015af2d182eaa0e4307c8d81474321245e"
+metafile = true
+
+[[files]]
+file = "mods/non-update-reloaded.pw.toml"
+hash = "a4ecbe521b5e3fb441b494e7fd6f9bd2b7ae93eac469801365f9986e9f6effd9"
 metafile = true
 
 [[files]]
