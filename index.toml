@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fml.toml"
+hash = "0a19f827abac613bbce62232a2e661aec4b4be1f972dbd23f52b5eb6826a972a"
+
+[[files]]
 file = "config/tacz/custom/suffuse-gunsmoke.pw.toml"
 hash = "acb7306ae70ad7501c0bac0793381cbb435480738936637fb9fe610978b6d75d"
 metafile = true
@@ -38,11 +42,6 @@ metafile = true
 [[files]]
 file = "mods/aether.pw.toml"
 hash = "dd0f4e61a79c60a7917fea9ee710d849df0832d9de5e05ccedafbeedbc451895"
-metafile = true
-
-[[files]]
-file = "mods/alexs-caves.pw.toml"
-hash = "0cbc4b2c6b58b7a94f030ae84f18057e5dc78a17bad429f40b8884926a6ab233"
 metafile = true
 
 [[files]]
@@ -421,11 +420,6 @@ hash = "45c70ff4c63f9fadad8363acdb05209247a01b1b762f6bb5953cb524202d091f"
 metafile = true
 
 [[files]]
-file = "mods/pasterdream.pw.toml"
-hash = "c707c607ee13b281f5e6e18ca4167a8f5ec160514e12950dfac41609a47469ab"
-metafile = true
-
-[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3cf8b0b943ef4e88b788d86284f634d7f3a252b642ac0c5b41c7ef2ff548238f"
 metafile = true
@@ -433,11 +427,6 @@ metafile = true
 [[files]]
 file = "mods/pick-up-notifier.pw.toml"
 hash = "9189983623b36c936ee4e3c7ad70407899a2fe9fe31498a5b6e1b8a03913f23e"
-metafile = true
-
-[[files]]
-file = "mods/playeranimator.pw.toml"
-hash = "b52622122c19a3894e62fc5506d7c3332d202504fd406d6718be646f979feb40"
 metafile = true
 
 [[files]]
@@ -463,11 +452,6 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
-metafile = true
-
-[[files]]
-file = "mods/selene.pw.toml"
-hash = "3d3796518a8fdb5f0dfae008714d8a32a6c46e8aed12880b4e63b900b5f667dd"
 metafile = true
 
 [[files]]
