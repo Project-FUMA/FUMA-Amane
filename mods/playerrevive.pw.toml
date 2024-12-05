@@ -1,13 +1,13 @@
 name = "PlayerRevive"
-filename = "PlayerRevive_FORGE_v2.0.29_mc1.20.1.jar"
+filename = "PlayerRevive_FORGE_v2.0.30_mc1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ABIMzABM/versions/MQOdwQFF/PlayerRevive_FORGE_v2.0.29_mc1.20.1.jar"
+url = "https://cdn.modrinth.com/data/ABIMzABM/versions/A4SZnJR8/PlayerRevive_FORGE_v2.0.30_mc1.20.1.jar"
 hash-format = "sha512"
-hash = "d6f8ac6cc2b4ee84e9461611f523d635fc183de3f4c52c5275b547b8f654df1369e78cd679a5bbca69c75007b042ec124150d7aea91f4bd193d550895ab845b3"
+hash = "54358025c0cc5588c5c603355edd12c44db416de692dbf0d292508bd94422411a212bd16e8e47522009da09266c2d014b874289195c7a1b6f535db06367a6964"
 
 [update]
 [update.modrinth]
 mod-id = "ABIMzABM"
-version = "MQOdwQFF"
+version = "A4SZnJR8"
