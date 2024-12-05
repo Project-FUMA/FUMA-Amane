@@ -1,0 +1,13 @@
+name = "PasterDream"
+filename = "PasterDream-forge1.20.1-beta0.3.5-7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f577d1c953d9e14083626934130a3d1402cc5374"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5550627
+project-id = 982745

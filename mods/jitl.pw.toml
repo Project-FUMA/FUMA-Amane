@@ -1,0 +1,13 @@
+name = "Journey Into The Light"
+filename = "JITL - 1.20.1 - 2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tnWvxgPP/versions/KB5uqc0B/JITL%20-%201.20.1%20-%202.2.jar"
+hash-format = "sha512"
+hash = "1f165d3e59588b28869a213d6ebd7ba630c019664fb84378e5ca25b115c1cb82189e433844f66987dd9f6a3131903443c64ed54f450d2485f20fdaedfafeb78e"
+
+[update]
+[update.modrinth]
+mod-id = "tnWvxgPP"
+version = "KB5uqc0B"
