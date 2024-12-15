@@ -1,9 +1,0 @@
-name = "Radiation Zone"
-filename = "radiation_zone-1.20.1_forge-1.1.4.jar"
-side = "both"
-
-[download]
-url = "https://tmp.cii.moe/share/67470abd5dee5/mods/radiation_zone-1.20.1_forge-1.1.4.jar"
-hash-format = "sha1"
-hash = "5ddff399be216fa9a291c024673f61e1e1f641a4"
-

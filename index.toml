@@ -260,11 +260,6 @@ hash = "4bb106cc2b05044bd36461c7006566263e01ce443104d2d9459a0fa92b464265"
 metafile = true
 
 [[files]]
-file = "mods/infinite-abyss.pw.toml"
-hash = "9c814da5c966e682ce442701762232cae09989c020c8cc789eaae347140f3113"
-metafile = true
-
-[[files]]
 file = "mods/jade.pw.toml"
 hash = "7f6c0ca162ebadc819fa2fe5d925daec6144d3480a6d75c769a72b8b46b78f9f"
 metafile = true
@@ -437,11 +432,6 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "d99946cb99e0d71fc13f2ff0e87108618b1f42486ff0ab3c3b99fa40c66efc9a"
-metafile = true
-
-[[files]]
-file = "mods/radiation-zone.pw.toml"
-hash = "fc515a7c21d0edaa1365229bbcc369cb5091a7e72ab4766ff9b47e97798481b0"
 metafile = true
 
 [[files]]
