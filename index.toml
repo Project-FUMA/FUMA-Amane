@@ -180,6 +180,11 @@ hash = "9085071da51ad9cf0865d7294c42a850389c34933845aeede842c43326a69307"
 metafile = true
 
 [[files]]
+file = "mods/elysium-api.pw.toml"
+hash = "5b79dc49e36a8da9b7bd07f0ecd61b0e0f2493f787be3e1b22f175bed8ec2f6e"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "5ec0c37f3f4ad07a40c10376668bca80334ddb7ad2bab06eb4de8f7aac339c8e"
 metafile = true
