@@ -146,7 +146,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "119d501c87aef8afa8cf89ed6f17499518c21240d7781f4331e3007e57957a79"
+hash = "1eceb4e4ab86c793f992ce9444e92f46dae76c3f744d8e19feb1143fb6c01939"
 metafile = true
 
 [[files]]
@@ -167,11 +167,6 @@ metafile = true
 [[files]]
 file = "mods/displaycase.pw.toml"
 hash = "dc32f38cc1346535bb8709e9935007e8a09b56385c6cb8d1cba2fbffa7810a39"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
-hash = "8276518c6ba5c30439e6361e115d6b26cd0a96904f7792d1501013aa05c3512f"
 metafile = true
 
 [[files]]
@@ -231,7 +226,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "f57b760f1db9b4033c89bd46a296b48e0d6c547de4b60e724e799608dab41bef"
+hash = "1484808760dad0e89dfbd3e3758b96dc9ecbb3d46fcec1489ac9d090213376c6"
 metafile = true
 
 [[files]]
@@ -376,7 +371,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
+hash = "2f8d1c3e8ff75a265ba6703a488c6fa7edc69cd9a01418ed1a6884e57a3e3ade"
 metafile = true
 
 [[files]]
@@ -521,7 +516,7 @@ metafile = true
 
 [[files]]
 file = "mods/timeless-and-classics-zero.pw.toml"
-hash = "4d30fd305885feef68bb6b4c3d5e5945b96b6b2e7cd44c6455c29133037217ba"
+hash = "a4b08e52d3a6f5ed9fa1b3124b64d1d9b29845d80da284474654a719739ed5c7"
 metafile = true
 
 [[files]]
@@ -576,12 +571,12 @@ metafile = true
 
 [[files]]
 file = "mods/yes-steve-model.pw.toml"
-hash = "67c51f78fbe2063a546ce15642fb0d317666e8c0d1e2eb2a1a3742e13ab51242"
+hash = "63e6a7e0f6c42f11058cd62bf2172f08f5ecf87cf6d96c790fab28fc7f210eb6"
 metafile = true
 
 [[files]]
 file = "mods/youkais-homecoming.pw.toml"
-hash = "c7784d2d4f1ccc9063d52050c8881410adb45255774b330587714927ca0ef105"
+hash = "dc4b5b9469dec5aef200b28d1c38d33f5d35d12cd47c1f352f83f8e4964f7184"
 metafile = true
 
 [[files]]
