@@ -1,13 +1,13 @@
-name = "Youkai's Homecoming"
-filename = "youkaishomecoming-2.2.17.jar"
+name = "Gensokyo Delight ~ Youkai's Homecoming"
+filename = "youkaishomecoming-2.3.13.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e216364b68b2c109c819f2a02baa2d0500b8b79c"
+hash = "44e9642cc08772e03f0f9618682c2862c9c3719c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5958139
+file-id = 6479819
 project-id = 957437
