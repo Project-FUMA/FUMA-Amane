@@ -1,13 +1,13 @@
 name = "Lightman's Currency"
-filename = "lightmanscurrency-1.20.1-2.2.5.1c.jar"
+filename = "lightmanscurrency-1.20.1-2.2.4.0c.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/wvMc8AJt/versions/VhNCqebD/lightmanscurrency-1.20.1-2.2.5.1c.jar"
+url = "https://cdn.modrinth.com/data/wvMc8AJt/versions/AJDkJsd3/lightmanscurrency-1.20.1-2.2.4.0c.jar"
 hash-format = "sha512"
-hash = "2d0deb3cd23660a554331d8edf941ed79ed5437d1f9885f72a9a57e7f235ff8dd467e1283fdca41e62250ccc6b65f637dc55f2c9dc78d916a15b1b0091f7a8cd"
+hash = "c3827852e9cb36379999b792b9178899ef2b8855a734b02481ac14827644d7973eb7161590f1b4118b757c7966ceb44784e5659d718aa2669228281c8b901746"
 
 [update]
 [update.modrinth]
 mod-id = "wvMc8AJt"
-version = "VhNCqebD"
+version = "AJDkJsd3"
