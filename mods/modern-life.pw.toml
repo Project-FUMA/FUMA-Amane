@@ -1,13 +1,13 @@
 name = "Modern Life"
-filename = "modernlife-1.20.1-1.69.jar"
+filename = "modernlife-1.20.1-1.75.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/AwQInKYB/versions/yQsAbZnA/modernlife-1.20.1-1.69.jar"
+url = "https://cdn.modrinth.com/data/AwQInKYB/versions/lI7HnN1T/modernlife-1.20.1-1.75.jar"
 hash-format = "sha512"
-hash = "220eeef089f681dc57984c680e70c818f53b0d0da36a9f28ea91d668185b24dafa16d7d3a03fcc0f6b723fcb64df22ae790ce569e47048c123a8abc517067c70"
+hash = "e0a5c184c1f033f51138291f7a7fe7c81b5bade48459aadd41fd98e84fb2de130a9b05d04a1388d08c13fe6b5f880d7b88635d1a57240839f73e5caff98c2d16"
 
 [update]
 [update.modrinth]
 mod-id = "AwQInKYB"
-version = "yQsAbZnA"
+version = "lI7HnN1T"
